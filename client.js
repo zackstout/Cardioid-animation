@@ -21,6 +21,6 @@
       var end = {xCoord: r*a*Math.cos(doubleStart*2*Math.PI/x), yCoord: r*b*Math.sin(doubleStart*2*Math.PI/x)};
 
       line(start.xCoord, start.yCoord, end.xCoord, end.yCoord);
-      stroke(200);
+      stroke(color('darkblue'));
     }
   }
